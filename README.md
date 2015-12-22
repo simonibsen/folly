@@ -126,8 +126,7 @@ Usage: folly
                          ds4=RSI_100 dsvlt4=70 
                          ds5=RSI_100 slopegt5=0 slope_window5=2 
                          ds6=MovAve_30 dsr6=PSAR_100 dsrvlt6=100 
-                         Provides all dates for all stocks where the RSI_100 ds has a slope greater than .1 with in a slope window of 10 day
-s
+                         Provides all dates for all stocks where the RSI_100 ds has a slope greater than .1 with in a slope window of 10 days
                          and where the slope of the ds MovAve_50 has a slope greater than .01 with a window of 30 days
                          and where the value of ADX_15 is greater than 25
                          and where the value of RSI_100 is less than 70
